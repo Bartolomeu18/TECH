@@ -1,0 +1,269 @@
+@charset "utf;8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding: 100px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  z-index:1 ;
+  padding: 16px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid #0c2e8a;
+}
+header h1 {
+  color: #0c2e8a;
+}
+#menubtn{
+    display: none;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+nav ul li a:hover {
+  color: #0c2e8a;
+}
+.hello {
+  margin-top: 70px;
+  background-image: url(../img/technology-6701504_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+.hello {
+  text-align: center;
+  color: whitesmoke;
+}
+.hello span {
+  color: #50d8af;
+}
+#frase {
+  padding-top: 13%;
+  padding-bottom: 8px;
+  font-size: xx-large;
+  color: #0c2e8a;
+}
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+#btnContactos {
+  background-color: #50d8af;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 10px;
+}
+#btnServiços {
+  background-color: #0c2e8a;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+#Sobre {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  margin-top: 30px;
+color: rgb(71, 71, 71);
+width: 90%;
+margin-left: 5%;
+
+}
+#Sobre img {
+  width: 40%;
+  margin-left: 1%;
+}
+#Sobre h1 {
+  color: #0c2e8a;
+  font-weight: bold;
+}
+#sobreConteiner {
+  margin-right: 1%;
+}
+#values {
+    margin-top: 5%;
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#valueitens {
+    width: 30%;
+    background-color: white;
+    box-shadow: 2px 2px 1px #58d8b288;
+    transition: 1s;
+}
+#valueitens:hover {
+    transform: scale(1.1);
+}
+#valueitens img{
+margin-left: 25%;
+border-radius:2px ;
+} 
+#valueitens h2{
+color: #0c2e8a;
+padding: 10px;
+} 
+#valueitens p{
+padding: 5px;
+} 
+#Serviços{
+    margin-top: 30px;
+    width: 95%;
+    margin-left: 1%;
+}
+#Serviços h1{
+  color: #0c2e8a;
+  padding: 10px;
+  margin-left: 4%;
+} 
+#serText{
+width: 90%;
+margin-left: 5%;
+}
+#ServiçosConteiner{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#ServiçosConteineritens{
+    display: flex;
+    width: 40%;
+    margin-left: 55px;
+    margin-bottom: 25px;
+    padding: 10px;
+    box-shadow: 1px 2px 3px #58d8b288 ;
+    /* rgb(154, 153, 153)*/
+    transition: 1s;
+}
+#ServiçosConteineritens:hover {
+    transform: scale(1.1);
+}
+#ServiçosConteineritens h2 {
+color: #0c2e8a;
+}
+#ServiçosConteineritens img{
+height: 100px;
+}
+#Contactos{
+width: 90%;
+margin-left: 5%;
+margin-top: 50px;
+}
+#Contactos h1{
+color: #0c2e8a;
+padding: 10px;
+}
+#Contactos p{
+padding: 10px;
+}
+form {
+    width: 90%;
+    border-radius:5px ;
+    box-shadow: 1px 1px 20px #58d8b288;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+label {
+    /*color: rgb(117, 117, 117);*/
+    display: block;
+    font-size: larger;
+    text-align: left;
+    margin: 3%;
+    margin-left:7%;
+    color: #0c2e8a;
+}
+input{
+    border: 2px solid #0c2e8a;
+    border-radius: 5px;
+color: rgb(71, 71, 71);
+    padding: 8px;
+    width: 70%;
+    margin-left:7%;
+}
+textarea{
+margin-left: 7%;
+border: 2px solid #0c2e8a;
+border-radius: 5px;
+}
+#enviar{
+background-color: #50d8af;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 8px; 
+    font-size: large;
+    cursor: pointer; 
+    display: block;
+    margin: 20px;
+    margin-left: 22%;
+    width: 54%;
+    border: none;
+}
+
+#contacteItensConteiner{
+      display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    align-items: center; 
+    margin-top: 20px;
+    width: 100%; 
+}
+#contacteItens{
+    text-align: center;
+    margin: 10px;
+    width:50%; 
+}
+#contacteItens img{
+height: 100px;
+}
+#contacteItens span{
+    color: #0c2e8a;
+font-weight: bold;
+}
+.borderRigth{
+    border-left:1px solid #50d8af;
+}
+footer{
+  background-color: #0c2e8a;
+  color: #50d8af;
+    text-align: center;
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.media img{
+  margin-top: 15px;
+height: 40px;
+}
+footer p{
+    margin-top: 25px;
+}
+footer a{
+color: #50d8af;
+}

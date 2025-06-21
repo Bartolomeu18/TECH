@@ -1,0 +1,113 @@
+
+body{
+      overflow-x: hidden; /* Oculta a rolagem horizontal */
+
+}
+#menubtn{
+    display: block;
+    cursor: pointer;
+}
+nav ul {
+ position: absolute;
+ right: 0;
+ top: 85%;
+ background-color: white;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  gap: 30px;
+  padding-top: 10px;
+  width: 45%;
+  height: 100vh;
+  transition: 1s ease-in-out;
+}
+#Sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+width: 100%;
+margin-left: 0%;
+text-align: justify;
+}
+#Sobre img {
+  width: 100%;
+}
+#values {
+  gap: 12px;
+}
+#valueitens {
+    width: 30%;
+    text-align: center;
+}
+#valueitens {
+margin-left: 3px;
+}
+#valueitens img{
+margin-left: 1%;
+border-radius:2px ;
+} 
+#Serviços{
+    width: 100%;
+    margin-left: 0%;
+}
+#Serviços h1{
+  margin-left: 1%;
+} 
+
+#ServiçosConteineritens{
+    display: flex;
+    width: 90%;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    padding: 10px;
+    box-shadow: 1px 2px 3px #58d8b288 ;
+    /* rgb(154, 153, 153)*/
+    transition: 1s;
+}
+textarea{
+margin-left: 5%;
+width: 80%;
+border: 2px solid #0c2e8a;
+border-radius: 5px;
+}
+#enviar{
+    margin-left: 20%;
+}
+#contacteItens{
+    text-align: center;
+    width:27%; 
+    height: auto;
+    font-size: 7px;
+}
+#contacteItens img{
+height: 40px;
+}
+
+#contacteItens span{
+text-align: center;
+}
+footer{
+  background-color: #0c2e8a;
+  color: #50d8af;
+    text-align: center;
+    margin-top: 19px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+footer p{
+font-size: 14px;
+}
+.media{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: smaller;
+}
+.media img{
+height: 20px;
+}
