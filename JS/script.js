@@ -2,10 +2,10 @@
 function displayMenu() {
     
 var menu = document.getElementById('menuitens')
-if (menu.style.display=='flex') {
-    menu.style.display='none'
+if (menu.style.width=='45%') {
+    menu.style.width='0%'
 }else{
-    menu.style.display='flex'
+    menu.style.width='45%'
 
 }
 }
