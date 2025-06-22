@@ -76,7 +76,7 @@ border-radius:2px ;
     transition: 1s;
 }
 textarea{
-margin-left: 5%;
+margin-left: 6%;
 width: 80%;
 border: 2px solid #0c2e8a;
 border-radius: 5px;
@@ -101,24 +101,26 @@ footer{
   background-color: #0c2e8a;
   color: #50d8af;
     text-align: center;
-    padding: 10px;
-    margin-top: 19px;
+    padding: 5px;
+    margin-top: 15px;
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
 }
 footer p{
 font-size: 11px;
+    margin-top:0px;
+
 }
 .media{
-  margin-top: 10px;
+  margin-top: 2px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   font-size: smaller;
 }
 .media img{
+margin-top: 3px;
 height: 20px;
 }

@@ -150,6 +150,7 @@ margin-left: 5%;
     margin-bottom: 25px;
     padding: 10px;
     box-shadow: 1px 2px 3px #58d8b288 ;
+    border-radius: 5px;
     /* rgb(154, 153, 153)*/
     transition: 1s;
 }
@@ -203,6 +204,9 @@ textarea{
 margin-left: 7%;
 border: 2px solid #0c2e8a;
 border-radius: 5px;
+}
+textarea::placeholder{
+padding: 10px;
 }
 #enviar{
 background-color: #50d8af;
