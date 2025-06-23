@@ -38,8 +38,15 @@ width: 100%;
 margin-left: 0%;
 text-align: justify;
 }
+#Sobre p {
+  padding: 3px;
+}
 #Sobre img {
-  width: 100%;
+  width: 98%;
+  margin-left:1%;
+}
+#Sobre h1 {
+  margin-left: 0.9%;
 }
 #values {
   gap: 15px;
