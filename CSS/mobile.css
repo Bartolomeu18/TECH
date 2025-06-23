@@ -12,22 +12,22 @@ body{
 nav ul {
  position: absolute;
  right: 0;
- top: 0%;
- background-color: #363d42f1;
+ top: 99%;
+ /*background-color: #363d42f1;*/ background: white;
  border-left:2px solid #0c2e8a;
   display: flex;
   align-items: center;
   flex-direction: column;
   list-style: none;
   gap: 30px;
-  padding-top: 80px;
+  padding-top: 30px;
   width: 0%;
   height: 100vh;
   transition: 1s ease-in-out;
 }
 nav ul li a {
   text-decoration: none;
-color: whitesmoke;
+color: #0c2e8a;
 }
 
 #Sobre {
@@ -42,24 +42,25 @@ text-align: justify;
   width: 100%;
 }
 #values {
-  gap: 12px;
-  margin-left: 10px;
+  gap: 15px;
 }
 #valueitens {
-    width: 45%;
+    width: 70%;
     gap: 10px;
     text-align: center;
-}
-#valueitens {
-margin-left: 3px;
+  margin-left: 20%;
+  border-radius: 5px;
+
 }
 #valueitens img{
 margin-left: 1%;
 border-radius:2px ;
+width: 35%;
 } 
 #Serviços{
     width: 100%;
     margin-left: 0%;
+    color: #363d42f1
 }
 #Serviços h1{
   margin-left: 1%;
@@ -71,7 +72,9 @@ border-radius:2px ;
     margin-bottom: 25px;
     margin-left: 5px;
     padding: 10px;
-    box-shadow: 1px 2px 3px #58d8b288 ;
+    box-shadow: 1px 2px 3px #50d8af ;
+    background-color: whitesmoke;
+    color: #363d42f1;
     /* rgb(154, 153, 153)*/
     transition: 1s;
 }
